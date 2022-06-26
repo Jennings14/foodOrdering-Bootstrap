@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quick Order Catering System</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+	new WOW().init();
+</script>
+<script src="js/simpleCart.min.js"> </script>	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+</head>
+<body>
+    <!-- header-section-starts -->
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<!--#333-->
+					<a href="index.html"><p style="color:#5BBD50; font-size:25px;">Quick Order <span style="color:#E24425; font-size:25px;">Catering System</span> </p> </a>
+				</div>
+				<div class="queries">
+					<p>Questions? Call us Toll-free!<span>1888-350-7492 </span><label>(11AM to 11PM)</label></p>
+				</div>
+				<!-- <div class="header-right">
+						<div class="cart box_1">
+							<a href="checkout.html">
+								<h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span> items)<img src="img/bag.png" alt=""></h3>
+							</a>	
+							<p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+							<div class="clearfix"> </div>
+						</div>
+					</div> -->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+			<div class="menu-bar">
+			<div class="container">
+				<div class="top-menu">
+					<ul>
+						<li class="active"><a href="index.html" class="scroll">Home</a></li>|
+						<li><a href="restaurants.html">Our Restaurants</a></li>|
+						<li><a href="order.html">Order</a></li>|
+						<li><a href="contact.html">contact</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="login-section">
+					<ul>
+						<li><a href="login.html">Login</a>  </li> |
+						<li><a href="register.html">Register</a> </li> |
+						<li><a href="contact.html">Help</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- header-section-ends -->
+	<div class="contact-section-page">
+		<div class="contact-head">
+		    <div class="container">
+				<h3>Contact</h3>
+				<p>Home/Contact</p>
+			</div>
+		</div>
+		<div class="contact_top">
+			 		<div class="container">
+			 			<div class="col-md-6 contact_left wow fadeInRight" data-wow-delay="0.4s">
+			 				<h4>Contact Form</h4>
+			 				<p>Give us your feed back or if you have any querries about let us know and fill out the form below.</p>
+							  <form>
+								 <div class="form_details">
+					                 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+									 <input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+									 <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+									 <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+									 <div class="clearfix"> </div>
+									 <div class="sub-button wow swing animated" data-wow-delay= "0.4s">
+									 	<input name="submit" type="submit" value="Send message">
+									 </div>
+						          </div>
+						       </form>
+					        </div>
+					        <div class="col-md-6 company-right wow fadeInLeft" data-wow-delay="0.4s">
+					        	<div class="contact-map">
+									<iframe src="https://www.google.com/maps/d/embed?mid=1BDglgOWL5-QdnnO4fmuXOqTAJ7E" width="640" height="480"></iframe>		</div>
+	  <div class="company-right">
+					        	<div class="company_ad">
+							     		<h3>Contact Info</h3>
+							     		<span>Give us your feed back or if you have any querries about let us know and fill out the form below.</span>
+			      						<address>
+											 <p>email:<a href="mailto:info@example.com">info@kfc.com</a></p>
+											 <p>phone:  1 888-350-7492</p>
+									   		<p>2D Valentine Dr</p>
+									   		<p>Kingston 19</p>
+									 	 	
+							   			</address>
+							   		</div>
+									</div>	
+									<div class="follow-us">
+										<h3>follow us on</h3>
+										<a href="#"><i class="facebook"></i></a>
+										<a href="#"><i class="twitter"></i></a>
+										<a href="#"><i class="google-pluse"></i></a>
+									</div>
+			
+							
+							 </div>
+						</div>
+					</div>
+
+	</div>
+	<!-- footer-section-starts -->
+	<!-- footer-section-ends -->
+	  <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
